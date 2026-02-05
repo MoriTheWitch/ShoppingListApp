@@ -24,7 +24,7 @@ export class ShoppingitemForm {
   }
 
   onSubmit(){
-    this.service.save(this.shoppingItem).subscribe(result => this.gotoShoppingList())
+    this.service.save(this.shoppingItem).subscribe()
   }
 
   gotoShoppingList(){
